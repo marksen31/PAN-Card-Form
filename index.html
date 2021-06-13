@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Card</title>
+    <style>
+        /* tag selector */
+        span {
+            color: red; //span tags will be in red 
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        /*universal selector*/
+        * {
+            margin: 3px 1px 3px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: #feeab5;">
+        <div style="background-color: brown; color: white; text-align: center;">
+            <!--First Header-->
+            <h5>Request for New PAN card or and Changes Or Correction in PAN Data</h5>
+            <p style="font-style: italic;">Fields markes with <span> * </span> (asterisk) are
+                mandatory. To avoid mistake(s), please refer <u style="color: orange;"> guidelines </u> and <u
+                    style="color: orange;">instructions</u></p>
+        </div>
+        <div style="font-weight: bold;">
+            <!--Creating Table-->
+            <table style="width: 100%;">
+                <td></td>
+                <!--Left Column-->
+
+                <td colspan="2">
+                    <p style="display: inline;"><span>*</span> Whether Citizen of India</p>
+                    <div style="display: inline;">
+                        <label for="yes" style="padding-left: 60px;">Yes</label>
+                        <input type="radio" id="yes" name="select">
+                        <label for="no" style="padding-left: 30px;">No</label>
+                        <input type="radio" id="no" name="select">
+
+                    </div>
+                </td>
+                <tr>
+                    <td></td>
+                    <!--Left Column-->
+                    <td colspan="2">
+                        <label for="PAN"><span>* </span>Permanent Account Number PAN</label>
+                        <input type="text" name="" id="PAN">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--Left Column-->
+                        <input type="checkbox" name="" id="" style="margin: 3px 7px 3px 3px;"></label>
+                    </td>
+                    <td colspan="">
+                        <span>*</span>
+                        1. Name
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;">Title</p>
+                        <div style="display: inline;">
+                            <label for="yes" style="padding-left: 30px;">Shri/Mr</label>
+                            <input type="radio" id="yes" name="select">
+                            <label for="no" style="padding-left: 30px;">Smt/Mrs</label>
+                            <input type="radio" id="no" name="select">
+                            <label for="no" style="padding-left: 30px;">Kumari/Ms</label>
+                            <input type="radio" id="no" name="select">
+                        </div>
+                    </td>
+                </tr>
+
+        </div>
+        <tr>
+            <td></td>
+            <!--Left Column-->
+            <td colspan="2">
+                <div>
+                    <label for="yes" style="padding-left: 50px;">Last Name/ Surname</label>
+                    <label for="yes" style="padding-left: 200px;">First Name</label>
+                    <label for="yes" style="padding-left: 200px;">Middle Name</label> <br>
+                <input type="text" name="" style="padding-left: 100px;">
+                
+                <input type="text" name="" style="padding-left: 100px;">
+                
+                <input type="text" name="" style="padding-left: 100px;">
+            </div>
+
+            </td>
+        </tr>
+
+
+
+        </table>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
